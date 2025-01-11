@@ -26,3 +26,45 @@ body {
     height: 150px;
     background-color: rgb(128, 128, 128);
 }
+
+label {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 700px;
+        height: 250px;
+    }
+    #colorBox {
+        border-radius: 25px;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 500px;
+    }
+    #colorBox {
+        border-radius: 20px;
+    }
+    body {
+        padding-top: 50px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+    #colorBox {
+        border-radius: 18px;
+    }
+    body {
+        padding-top: 30px;
+        font-size: 16px;
+    }
+}
